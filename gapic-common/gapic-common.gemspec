@@ -35,7 +35,7 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = ">= 2.6"
 
-  spec.add_dependency "faraday", ">= 1.9", "< 3.a"
+  spec.add_dependency "faraday", '~> 0.9.2'
   spec.add_dependency "faraday-retry", ">= 1.0", "< 3.a"
   spec.add_dependency "googleapis-common-protos", ">= 1.3.12", "< 2.a"
   spec.add_dependency "googleapis-common-protos-types", ">= 1.3.1", "< 2.a"
