@@ -33,7 +33,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
   spec.platform =      Gem::Platform::RUBY
 
-  spec.required_ruby_version = ">= 2.6"
+  spec.required_ruby_version = ">= 2.5.8"
 
   spec.add_dependency "faraday", '~> 0.9.2'
   spec.add_dependency "faraday-retry", ">= 1.0", "< 3.a"
